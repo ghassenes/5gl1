@@ -24,7 +24,7 @@ public class User implements Serializable {
 	private String e_mail;
 	private String login;
 	private String password;
-	
+	//coment
 	List<Projet>listprojet= new ArrayList<Projet>();
 	
 	List<Issues>listIssues= new ArrayList<Issues>();
