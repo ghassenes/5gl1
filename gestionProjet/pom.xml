@@ -277,7 +277,7 @@
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
-			<version>4.7</version>
+			<version>4.12</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.ibatis</groupId>
@@ -344,6 +344,17 @@
        </dependency>
 
 	</dependencies>
+<distributionManagement>
+<repository>
+<id>deployment</id>
+<url>http://192.168.101.18:8081/nexus/content/repositories/releases/</url>
+</repository>
 
+<snapshotRepository>
+<id>deployment</id>
+<url>http://192.168.101.18:8081/nexus/content/repositories/snapshots/</url>
+</snapshotRepository>
+
+</distributionManagement>
   
 </project>
